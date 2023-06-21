@@ -1,10 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(7,px);
+  grid-template-rows: repeat(5,300px);
+  width: 100vw;
+  height: 80vh;
+  
 }
 
 .container div {
@@ -17,11 +24,13 @@
 
 .header {
   background-color: #393f4d;
+  
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
+
 }
 
 .sidebar {
